@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    line-height: 1.4;
+    /* font-size: 12.6%; */
+    font-family: sans-serif;
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: rgb(56, 56, 219);
+    width: 100vw;
+    color: white;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navigation {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.navigation ul {
+    display: flex;
+    gap: 30px;
+}
+
+.navigation ul li {
+    font-size: 20px;
+    font-weight: 200;
+    border-bottom: 2px solid transparent;
+
+}
+
+.navigation ul li:hover {
+    border-bottom: 2px solid #ccc;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.hero_section {
+    background-color: rgb(86, 86, 238);
+    width: 100vw;
+    height: 430px;
+
+}
+
+.hero_content {
+    position: relative;
+    top: 150px;
+    left: 370px;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+}
+.hero_content h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+.hero_content h1{
+    font-size: 45px;
+    font-weight: 600;
+    color: white;
+}
+.hero_content h3{
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+ .hero_content button{
+    padding: 10px 10px;
+    overflow: hidden;
+    width: 90px;
+    margin-left: 160px;
+    background: #000;
+    color: #ccc;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+}
+.small_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40vh;
+    padding: 20px;
+    margin-top: 50px;
+    gap: 200px;
+}
+.img{
+    display: flex;
+}
+.img img{
+    width: 300px;
+    height: 200px;
+}
+.smal_content{
+    display: flex;
+    flex-direction: column;
+}
+.smal_content h4{
+    font-size: 18px;
+    color: green;
+    font-weight: 600;
+}
+.smal_content p{
+    line-height: 1.4;
+}
+.smal_content button{
+    padding: 10px 10px;
+    overflow: hidden;
+    width: 120px;
+    margin-left: 1px;
+    background: #000;
+    color: #ccc;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+}
+.news{
+    background-color: rgb(86, 86, 238);
+    width: 100vw;
+    height: 200px;
+    margin-top: 50px;
+}
+.news_letter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 300px;
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 70px;
+    color: white;
+}
+.left h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+.right{
+    margin-top: 70px;
+}
+.right input{
+   padding: 15px 40px;
+}
+.right button{
+    padding: 15px;
+    overflow: hidden;
+    width: 120px;
+    margin-left: 1px;
+    background: #000;
+    color: #ccc;
+    outline: none;
+    border: none;
+    
+}
+.card_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(280px , 1fr));
+    margin-top: 90px;
+}
+.card_item:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.card_item{
+    width: 280px;
+    height: 340px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+    
+
+}
+.card_item h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.card_item h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.card_item p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.card_item button{
+    padding: 10px 10px;
+    overflow: hidden;
+    width: 120px;
+    margin-left: 1px;
+    background: #000;
+    color: #ccc;
+    outline: none;
+    border: none;
+    margin-top: 30px;
+}
+footer{
+    background-color: rgb(86, 86, 238);
+    height: 300px;
+    margin-top: 70px;
+}
+.first{
+    width: 420px;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+}
+.content h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+.content p{
+    font-size: 14px;
+    color: white;
+    font-weight: 200;
+}
+.second{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 150px;
+    margin-top: 90px;
+}
+.second ul li{
+    margin-top: 15px;
+    font-size: 16px;
+    color: white;
+}
+.second  h4{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+
